@@ -1,7 +1,115 @@
+body {
+	font-family: sans-serif;
+}
 .movie-ratings {
-  background-color: black;
-  color: lightgrey; }
+	background-color: black;
+	color: lightgrey;
+}
 
 .rated-movie {
-  background-color: lightblue;
-  color: darkgreen; }
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #C4D4D4;
+	color: DarkSlateGray;
+}
+
+.rated-movie > table {
+	border-spacing: .4em;
+	font-size: small;
+}
+
+.rated-movie > table tr > td:nth-child(2) {
+	width: 100px;
+	border: 1px inset;
+	background-color: #DDD;
+	padding: 0;
+}
+
+.rated-movie > table tr > td:nth-child(2) div {
+	display: inline-block;
+	background-color: goldenrod;
+}
+
+.rated-movie > table tr > td:nth-child(3) {
+	text-align: right;
+}
+
+.rated-movie > table tr > td:nth-child(3):after {
+	content: '%';
+}
+
+.movie-title {
+	font-weight: bold;
+	margin: .5em 0;
+}
+
+.movie-rating {
+	display: inline-block;
+	font-size: x-small;
+	margin-bottom: .6em;
+}
+
+.stars {
+	position: relative;
+	width: 15em;
+	height: 1.1em
+}
+
+.stars > div {
+	position:absolute;
+	overflow-x:hidden;
+	color: gold;
+}
+.stars > div > span {
+	font-size: x-small;
+	color: DarkSlateGray;
+	margin-left: .7em;
+}
+
+.stars > div:first-child:before {
+	color: #EEE;
+	content: '\2605\2605\2605\2605\2605'; /* 5 white stars */
+}
+
+.stars > div:last-child:before {
+	color: goldenrod;
+	content: '\2606\2606\2606\2606\2606'; /* 5 yellow star outlines */
+}
+
+div.del {
+	float: right;
+	border: 2px solid transparent;
+	border-radius: 12px;
+	font-weight: normal;
+	padding: 0 .3em;
+}
+div.del:hover {
+	background-color: #DDD;
+	border-color: DarkSlateGray;
+	cursor: pointer;
+}
+div.del:active {
+	background-color: #FAA;
+}
+
+.rate-this-movie {
+	padding: 1em;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+	user-select: none;
+}
+
+.rate-this-movie > span {
+	cursor: pointer;
+	margin-left: .2em;
+}
+
+.rate-this-movie > span:active {
+	color: red;
+}
+
+input.reset-ratings {
+	font-size: xx-small;
+	text-transform: capitalize;
+	float: right;
+}
