@@ -1,3 +1,7 @@
+> *This was my solution to Red Owl's challenge. Although it was not time-limited,
+> I was advised it should take about an hour. Howeer it took me a lot more than that,
+> mostly I think because I was completely new to coffeescript and mocha.*
+
 RedOwl Recruiting Exam
 ======================
 
