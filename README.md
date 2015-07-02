@@ -1,6 +1,4 @@
-> *This was my solution to Red Owl's challenge. Although it was not time-limited,
-> I was advised it should take about an hour. Howeer it took me a lot more than that,
-> mostly I think because I was completely new to coffeescript and mocha.*
+> *This was my solution to Red Owl's challenge. Coffeescript and mocha were completely new to me.*
 >
 > ***To see just my edits, look at [this commit](https://github.com/joneit/redowl/commit/bb1ab4c310773bad3e63f17c31f334162724bc70).***
 >
