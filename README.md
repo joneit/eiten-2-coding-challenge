@@ -1,10 +1,10 @@
-> *This was my solution to Red Owl's challenge. Coffeescript and mocha were completely new to me.*
+> *This was my solution to \[R.O.\]'s challenge. Coffeescript and mocha were completely new to me.*
 >
-> ***To see just my edits, look at [this commit](https://github.com/joneit/redowl/commit/bb1ab4c310773bad3e63f17c31f334162724bc70).***
+> ***To see just my edits, look at [this commit](https://github.com/joneit/eiten-2-coding-challenge/commit/bb1ab4c310773bad3e63f17c31f334162724bc70).***
 >
 > *&mdash; J. Eiten*
 
-RedOwl Recruiting Exam
+\[R.O.\] Recruiting Exam
 ======================
 
 This exam should cover the following skills:
